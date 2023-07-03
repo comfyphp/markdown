@@ -27,8 +27,8 @@ $config = [
 ];
 
 // This extension will modify the router and document of ComfyPHP
-$router = new ComfyPHP\Router\Markdown();
-$document = new ComfyPHP\Document\Markdown($config);
+$router = new ComfyPHP\Markdown\Router();
+$document = new ComfyPHP\Markdown\Document($config);
 ```
 
 Then pass the variables into `ComfyPHP\Core()`:

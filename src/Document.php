@@ -17,7 +17,7 @@ class Document extends \ComfyPHP\Document
     public function __construct(array $MDParams = null)
     {
         parent::__construct();
-        $this->MDParams = $MDParams;
+        $this->MDParams = $MDParams ?? $this->defaultMDParams;
         $this->parsedown = new \ParsedownExtra();
     }
 
