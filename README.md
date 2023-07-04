@@ -70,6 +70,16 @@ This will create the HTML below after process:
 
 For more information, you may take a look <a href="https://michelf.ca/projects/php-markdown/extra/" target="_blank" rel="noreferrer noopener">here</a>.
 
+## Meta Tags / Elements
+
+In addition to converting markdown content to HTML, you can also include the `<head>` sections at the beginning of the markdown file. ComfyPHP will read and convert them accordingly.
+
+```markdown
+<head>
+    <title>Title</title>
+</head>
+```
+
 ## License
 
 This project is MIT licensed, you can find the license file [here](./LICENSE).
